@@ -22,4 +22,4 @@ Calczy is a modern, interactive calculator built with **HTML**, **CSS**, and **J
 - ✅ **Copy Result to Clipboard**
 - ✅ **Responsive Design** — works great on mobile and desktop
 - ✅ **Styled Scrollbars** — clean and modern look
-   git clone https://github.com/yourusername/calczy.git
+   
