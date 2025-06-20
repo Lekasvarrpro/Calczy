@@ -1,12 +1,18 @@
-# 🧮 Calczy — Smart & Responsive Calculator
+## Steps to run the calczy
+
+# step 1: download the entire calculator folder
+# step 2: now open the calculator folder 
+# step 3: inside that calculator -> modules -> Html -> click index.html 
+# step 4: in index.html right-click -> open with -> chrome 
+# step 5: open it in the google chrome for better interface
+
+
+
+# Calczy — Smart & Responsive Calculator
 
 Calczy is a modern, interactive calculator built with **HTML**, **CSS**, and **JavaScript**. It supports both mouse and keyboard input, live expression previews, history logging, and is fully responsive across all devices.
 
-![Calczy Screenshot](preview.png) <!-- Optional: Add a screenshot here -->
-
----
-
-## 🔥 Features
+## Features
 
 - ✅ **Live Expression Preview** — see results as you type
 - ✅ **Keyboard Support** — type `0-9`, operators, `Enter`, `Backspace`, `C`
