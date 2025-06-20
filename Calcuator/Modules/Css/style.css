@@ -1,0 +1,320 @@
+/*import the other css files using @import rule*/
+@import url('animation.css');
+
+/*style code*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+head,body{
+
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    background-image: url('/background_image/background.jpg');
+    background-repeat: repeat;
+    background-size: 70% 70%;
+    
+}
+
+.subcontainer{
+    
+    height: 97vh;
+    width: 40vw;
+    margin-top: 10px;
+    background-image: linear-gradient(to bottom, #1a273b, #1b263d, #1d243e, #20223f, #23203f);
+    border-radius: 20px;
+    z-index: 1;
+    
+
+}
+
+.subcontainer2{
+    
+
+    width: 35vw;
+    margin-left: 40px;
+    margin-top: 30px;
+    background-image: linear-gradient(to bottom, #18162f, #15142d, #13122a, #110f28, #0e0c26);
+    border: none;
+    border-radius: 20px;
+     box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.6),
+              inset -3px -3px 6px rgba(255, 255, 255, 0.05);
+     outline: none;
+
+    
+
+}
+
+table{
+
+    border-spacing: 50px 20px;
+    border-collapse: separate;
+
+}
+
+#div0 input{
+    
+    width: 90%;
+    margin-left: 35px;
+    margin-top: 20px;
+    padding: 20px;
+    border:none;
+    border-radius: 10px;
+    background-color: #0e0c26;
+    color: white;
+    font-size: 35px;
+    box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.6),
+              inset -3px -3px 6px rgba(255, 255, 255, 0.05);
+    outline: none;
+    
+}
+
+#div0 input::placeholder{
+    
+    
+    color: white;
+    font-size: 35px;
+    
+    
+}
+
+
+.buttons {
+  width: 60px;
+  height: 60px;
+  font-size: 26px;
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: slategray;
+  cursor: pointer;
+  transition: background-color 0.1s ease-in-out;
+  color: white;
+}
+.buttons:hover{
+    
+    background-color: royalblue;
+ 
+    
+}
+
+.buttons:active {
+  transform: scale(0.92);
+  background-color: steelblue;
+  
+}
+
+
+
+
+
+/* Default input style */
+#display {
+  color: black;
+}
+
+/* Success result */
+#display.success {
+  color: green;
+}
+
+/* Error result */
+#display.error {
+  color: red;
+}
+
+
+/* === History Section === */
+.history-container {
+  height: 230px;
+  width: 200px;
+  position: absolute;
+  top: 270px;
+  right: 220px;
+  padding: 10px 15px;
+  background-image: linear-gradient(to top, #1a273b, #1b263d, #1d243e, #20223f, #23203f);
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+   
+}
+
+.history-container h3 {
+  text-align: center;
+  margin: 0 0 8px;
+  font-size: 18px;
+  color: #ffd700;
+  letter-spacing: 5px; 
+}
+
+.history-log {
+  max-height: 160px;
+  overflow-y: auto;
+  padding-right: 5px;
+  font-size: 14px;
+  scrollbar-width: thin;
+  scrollbar-color:  #6c7ebb #1e1e2f;
+  scroll-behavior: smooth;
+
+}
+
+.history-log::-webkit-scrollbar {
+  width: 6px;
+}
+
+.history-log::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+.history-log::-webkit-scrollbar-track {
+  background: #1e1e2f;
+}
+
+.history-log p {
+  margin: 5px 0;
+  padding: 5px 8px;
+  background-color: #2f2f3f;
+  border-radius: 5px;
+  word-wrap: break-word;
+  color: #e0e0e0;
+}
+
+/*keyboard hint*/
+
+.key {
+  height: 200px;
+  width: 380px;
+  position: absolute;
+  left: 50px;
+  background-color: #3e3885;
+  margin-top: 50px;
+  border-radius: 20px;
+  
+}
+
+.key p{
+
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+  color: white;
+  margin-top: 20px;
+}
+
+.key pre{
+  
+  margin-top: 50px;
+  font-size: 20px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  color: white;
+  line-height: 30px;
+  position: relative;
+  right: 20px;
+}
+
+/*history hint*/
+.his {
+  height: 70px;
+  width: 380px;
+  position: absolute;
+  left: 50px;
+  top: 240px;
+  background-color: #3e3885;
+  margin-top: 50px;
+  border-radius: 20px;
+  
+}
+
+.his p{
+
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+  color: white;
+  margin-top: 20px;
+}
+
+.liv{
+
+  height: 70px;
+  width: 380px;
+  position: absolute;
+  left: 50px;
+  top: 350px;
+  background-color: #3e3885;
+  margin-top: 50px;
+  border-radius: 20px;
+
+}
+
+.liv p{ 
+
+  
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+  color: white;
+  margin-top: 20px;
+}
+
+/*Live preview*/
+
+.preview-style {
+  
+  color: green;
+  font-size: 30px;
+  position: relative;
+
+}
+
+.live-preview {
+  height: 150px;
+  width: 250px;
+  position: absolute;
+  top: 100px;
+  right: 180px;
+  padding: 10px 15px;
+  background-image: linear-gradient(to top, #1a273b, #1b263d, #1d243e, #20223f, #23203f);
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  font-family: 'Segoe UI', sans-serif;
+  color: #ffd700;;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing:2px;
+}
+
+.live-preview .preview-style{
+
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+/*for Ans button*/
+[data-action="equal"]:hover {
+  background: #22c90c;
+  
+}
+
+/*for AC button*/
+[data-action="clear"]:hover {
+  background: #ff0000;
+  
+}
+
