@@ -1,8 +1,8 @@
 ## Steps to run the calczy
 
-## step 1: download the entire calculator folder
-## step 2: now open the calculator folder 
-## step 3: inside that calculator -> index.html
+## step 1: download the entire docs folder
+## step 2: now open the docs folder 
+## step 3: inside that docs -> index.html
 ## step 4: in index.html right-click -> open with -> chrome 
 ## step 5: open it in the google chrome for better interface
 
