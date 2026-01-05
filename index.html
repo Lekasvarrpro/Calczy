@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calczy</title>
+  <link rel="icon" href="favicon_update.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="Modules/Css/style.css" />
+</head>
+<body>
+
+<div class="app">
+
+  <!-- Calculator -->
+  <div class="calculator glass float-in">
+
+    <input id="display" type="text" placeholder="0" readonly />
+
+    <div class="grid">
+      <button class="btn op" data-value="(">(</button>
+      <button class="btn op" data-value=")">)</button>
+      <button class="btn op" data-value="%">%</button>
+      <button class="btn danger" data-action="clear">AC</button>
+
+      <button class="btn" data-value="7">7</button>
+      <button class="btn" data-value="8">8</button>
+      <button class="btn" data-value="9">9</button>
+      <button class="btn op" data-value="÷">÷</button>
+
+      <button class="btn" data-value="4">4</button>
+      <button class="btn" data-value="5">5</button>
+      <button class="btn" data-value="6">6</button>
+      <button class="btn op" data-value="×">×</button>
+
+      <button class="btn" data-value="1">1</button>
+      <button class="btn" data-value="2">2</button>
+      <button class="btn" data-value="3">3</button>
+      <button class="btn op" data-value="-">-</button>
+
+      <button class="btn wide" data-value="0">0</button>
+      <button class="btn" data-value=".">.</button>
+      <button class="btn ans" data-action="equal">ANS</button>
+      <button class="btn op" data-value="+">+</button>
+
+      <button class="btn wide" data-action="backspace">←</button>
+    </div>
+
+  </div>
+
+  <!-- Right Panel -->
+  <div class="side-panel glass slide-in">
+
+    <div class="panel-card">
+      <h3>Live Preview</h3>
+      <div id="livePreview" class="live-text"></div>
+    </div>
+
+    <div class="panel-card">
+      <h3>History</h3>
+      <div id="historyLog" class="history-log"></div>
+    </div>
+
+  </div>
+
+</div>
+
+<script src="Modules/Javascript/script.js"></script>
+</body>
+</html>
