@@ -52,4 +52,4 @@ Calczy combines clean design, interactivity, and functionality, making it a port
 
 ## 6. Deployment
 
-Live Demo: 
+Live Demo: lekasvarrpro.github.io/Caclzy/
